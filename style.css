@@ -33,5 +33,21 @@ body {
 
 .fencetitle {
   background-color: black;
+  border-radius: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+.textrowheight {
+  padding-top: .25rem;
+  padding-left: 1.25em;
+  height: 2em;
+}
+
+.checkmarkgray {
+  width: 1.75em;
+  height: 1.75em;
+  padding-right:3em;
 
 }

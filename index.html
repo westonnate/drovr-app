@@ -13,74 +13,72 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-  
 
+<!-- Main container -->
 <div class="container">
-
+  <!-- Logo Image -->
   <div class="row justify-content-center">
     <div class="col-md-8">
       <img src="LogIn.png" class="img-fluid" alt="Responsive image">
     </div>
   </div>
-
+  <!-- Log in text -->
   <div class="row justify-content-center">
-    <div class="col-auto">
-      <p class="text-center" style="color:white;font-size: 50">Log In</p>
-    </div> 
+    <div class="col-sm-auto">
+      <h1 class="text-center" style="color:white;font-size: 80">Log In</h1>
+    </div>
+  </div>
+<!-- Login Form -->
+<form>
+  <!-- Email input -->
+  <div class="row justify-content-center">
+    <div class="col-sm-6 px-3">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
   </div>
 
-  <div class="row">
-    <div class="col">
-      content
-    </div> 
+  <!-- email subtitle Use for signup page -->
+  <!-- <div class="row justify-content-center">
+    <div class="col-sm-auto">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+  </div> -->
+  <!-- password input -->
+  <div class="row justify-content-center">
+    <div class="col-sm-6 p-3">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+  </div>
+  <!-- checkbox -->
+  <div class="row justify-content-center">
+    <div class="col-sm-auto p-4">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Remember me</label>
+    </div>
+  </div>
+  <!-- submit button -->
+  <div class="row justify-content-center">
+    <div class="col-sm-auto pb-4">
+      <button type="submit" class="btn btn-primary btn-lg" id = "blackerrounder">Submit</button>
+    </div>
+  </div>
+  <!-- Forgot Password? link -->
+  <div class="row justify-content-center">
+    <div class="col-sm-auto pb-3">
+      <button type="button" class="btn btn-link">Forgot your password?</button>
+    </div>
+  </div>
+  <!-- Sign up button -->
+  <div class="row justify-content-center">
+    <div class="col-sm-auto pb-3">
+      <button type="button" class="btn btn-primary" id="blackerrounder">Sign up for an account</button>
+    </div>
   </div>
 
-  <div class="row">
-    <div class="col">
-      content
-    </div> 
-  </div>
 
+</form>
 </div>
-
-
-
-
-
-
-
-        
-  <div class="row justify-content-center">
-    <div class="col-sm-6 px-1">
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-
-
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-
-
-        </div>
-        <div class="form-group">
-
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          
-        </div>
-      
-      
-        <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Remember me</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      
-      </form>
-    </div> 
-  </div>
-      
-      
-    
   </body>
 </html>

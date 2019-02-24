@@ -9,7 +9,29 @@ body {
   background-color: #a6bf44;
 }
 
-#blackerrounder{
+.blackerrounder {
   background-color: black;
   border-radius: 200px;
+}
+
+.deviceheader {
+  background-color: black;
+  border-bottom : 5px white;
+  border-right: 5px white;
+  border-left:  5px white;
+}
+
+.fabulous {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.flexitem {
+  background-color: #C8C8C8;
+  border-radius: 2px;
+}
+
+.fencetitle {
+  background-color: black;
+
 }
